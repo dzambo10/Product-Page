@@ -1,0 +1,538 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	display: inline-flex;
+	flex-grow: 1;
+}
+
+button {
+	cursor: pointer;
+}
+
+
+.ihave {
+	width:  574px;
+	background-color: #DFE3EB;
+}
+
+.ihave img {
+	display: block;
+	margin-left: 142px;
+	margin-bottom: 40px;
+}
+
+.odabrano {
+	width: 1346px;
+	background-color: #EBEFF7;
+}
+
+.odabrano div {
+	margin-left: 288px;
+	display: inline-block;
+}
+
+.odabrano div img {
+	display: inline-block;
+	margin-right: 32px;
+}
+
+#logo {
+	margin-left: 142px;
+	display: inline-block;
+	max-width: 199px;
+	height: 50px;
+	margin-top: 38px;
+	margin-bottom: 122px;
+}
+
+nav {
+	margin-left: 126px;
+	margin-top: 57px;
+	display: inline-block;
+}
+
+nav ul {
+	flex-grow: 1;
+	display: inline-flex;
+}
+
+nav ul li {
+	list-style: none;
+	margin-right: 48px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #656565;
+}
+
+#mask-group {
+	position: absolute;
+	left: 277px;
+	top: 170px;
+}
+
+.checked {
+	color: #FFC107;
+}
+
+.empty {
+	color: #CCCCCC;
+}
+
+.odabrano .wireles-headset {
+	display: inline-block;
+	margin-left: 460px;
+	margin-top: 200px;
+}
+
+.odabrano .wireles-headset h1 {
+	font-family: 'Oswald';
+	font-size: 64px;
+	margin-bottom: 8px;
+}
+
+.odabrano .wireles-headset p {
+	color: #656565;
+	font-family: 'Roboto';
+	margin-bottom: 36px;
+	font-size: 18px;
+}
+
+.odabrano .wireles-headset .cijena {
+	font-size: 50px;
+	margin-top: 36px;
+	display: inline-block;
+	color: #FF9300;
+}
+
+.odabrano .wireles-headset input {
+	margin-left: 50px;
+	width: 133px;
+	height: 50px;
+	font-size: 24px;
+	border: 1px solid #9C9C9C;
+	border-radius: 8px;
+	font-family: 'Oswald';
+	position: relative;
+    top: -5px;
+}
+
+.odabrano .wireles-headset .kupi {
+	width: 213px;
+	height: 61px;
+	color: #FFF;
+	background-color: #FF9300;
+	border-radius: 8px;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Roboto';
+	border: 0;
+	margin-right: 24px;
+}
+
+.odabrano .wireles-headset .kupi:hover {
+	color: #FF9300;
+	background-color: #EBEFF7;
+	border: 2px solid #FF9300;
+}
+
+.odabrano .wireles-headset .dodaj {
+	width: 247px;
+	height: 61px;
+    border: 2px solid #FF9300;
+    color: #FF9300;
+    font-size: 24px;
+    background-color: #EBEFF7;
+    border-radius: 8px;
+}
+
+.odabrano .wireles-headset .dodaj:hover {
+	color: #fff;
+	background-color: #FF9300;
+}
+
+.odabrano .wireles-headset #user {
+	margin-top: 33px;
+}
+
+.iskoristi-momente .dodaj:hover {
+	color: #fff;
+	background-color: #FF9300;
+}
+
+.iskoristi-momente .kupi:hover {
+	color: #FF9300;
+	background-color: #EBEFF7;
+	border: 2px solid #FF9300;
+}
+
+.dostava .kontakt .kupi:hover {
+	color: #FF9300;
+	background-color: #EBEFF7;
+	border: 2px solid #FF9300;
+}
+
+.odabrano .wireles-headset .user {
+	margin-top: 32px;
+	margin-left: -30px;
+	font-size: 16px;
+	font-family: 'Roboto';
+	color: #656565;
+}
+
+.odabrano .wireles-headset #surface {
+	margin-top: 18px;
+}
+
+.odabrano .wireles-headset .surface {
+	margin-left: -30px;
+	font-size: 16px;
+	font-family: 'Roboto';
+	color: #656565;
+}
+.odabrano #facebook {
+	position: absolute;
+	top: 387px;
+	left: 1739px;
+}
+
+.odabrano #instagram {
+	position: absolute;
+	top: 439px;
+	left: 1739px;
+}
+
+.odabrano #in {
+	position: absolute;
+	top: 491px;
+	left: 1739px;
+}
+
+.opis-proizvoda {
+	background-image: url('assets/Mask Group 7.png');
+	padding: 269px 1140px 268px 174px;
+	height: 885px;
+	width: 1920px;
+}
+
+.opis-proizvoda nav {
+	margin-left: 174px;
+	border-bottom: 2px solid #656565;
+	width: 606px;
+}
+
+.opis-proizvoda #opis-1 {
+	margin-top: 32px;
+	margin-left: 174px;
+}
+
+.opis-proizvoda #opis-2 {
+	margin-top: 30px;
+	margin-left: 174px;
+}
+
+.opis-proizvoda #opis-3 {
+	margin-top: 24px;
+	margin-left: 174px;
+}
+
+.opis-proizvoda #opis-3, #opis-2, #opis-1 {
+	font-family: 'Roboto';
+	color: #656565;
+	font-size: 18px;
+	width: 578px;
+	height: 76px;
+}
+
+.opis-proizvoda ul li {
+	font-size: 24px;
+	font-family: 'Oswald';
+	margin-right: 145px;
+}
+
+.opis-proizvoda nav ul #opis {
+	border-bottom: 3px solid #FF9300;
+	padding-bottom: 25px;
+	width: 95px;
+	text-align: center;
+}
+
+.iskoristi-momente {
+	width: 1920px;
+	height: 887px;
+	background-image: url('assets/Mask Group 13.png');
+	padding: 249px 326px 504px 1034px;
+}
+
+.iskoristi-momente h2 {
+	font-size: 50px;
+	font-family: 'Oswald';
+	margin-bottom: 24px;
+}
+
+.iskoristi-momente p {
+	font-size: 18px;
+	font-family: 'Roboto';
+	color: #656565;
+	margin-bottom: 40px;
+}
+
+
+
+.iskoristi-momente .kupi {
+	width: 213px;
+	height: 61px;
+	color: #FFF;
+	background-color: #FF9300;
+	border-radius: 8px;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Roboto';
+	border: 0;
+	margin-right: 24px;
+}
+
+.iskoristi-momente .dodaj {
+	width: 247px;
+	height: 61px;
+    border: 2px solid #FF9300;
+    color: #FF9300;
+    font-size: 24px;
+    background-color: #EBEFF7;
+    border-radius: 8px;
+}
+
+.povezani-proizvodi {
+	width: 1920px;
+	height: 887px;
+	background-color: #EBEFF7;
+	text-align: center;
+	padding-top: 128px;
+	padding-bottom: 110px;
+}
+
+.povezani-proizvodi h2 {
+	font-size: 50px;
+	font-family: 'Oswald';
+	margin-bottom: 24px;
+}
+
+.povezani-proizvodi p {
+	margin-left: 664px;
+	width: 596px;
+	color: #656565;
+	font-family: 'Roboto';
+	text-align: center;
+	margin-bottom: 64px;
+}
+
+.povezani-proizvodi div {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.povezani-proizvodi div span {
+	font-size: 36px;
+	font-family: 'Oswald';
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+.cijena {
+	font-size: 50px;
+	margin-top: 36px;
+	display: inline-block;
+	color: #FF9300;
+	font-family: 'Oswald';
+}
+
+.dostava {
+	background-color: #DFE3EB;
+	width: 1920px;
+	height: 1304px;
+	padding-top: 128px;
+}
+
+.dostava h2 {
+	font-size: 50px;
+	margin-bottom: 96px;
+	font-family: 'Oswald';
+	text-align: center;
+}
+
+.dostava img {
+	margin-left: 280px;
+	margin-right: 20px;
+}
+
+.dostava .kontakt {
+	display: inline-block;
+	margin-top: -20px;
+}
+
+.dostava .mask-group12 {
+	display: inline-flex;
+	flex-grow: 1;
+}
+
+.dostava .kontakt input {
+	width: 394px;
+	height: 50px;
+	margin-top: 4px;
+	border: 1px solid #939FB8;
+	border-radius: 4px;
+}
+
+.dostava .kontakt label {
+	display: inline-block;
+	font-size: 18px;
+	color: #656565;
+	font-family: 'Roboto';
+	margin-top: 20px;
+}
+
+.dostava .kontakt textarea {
+	width: 394px;
+	height: 162px;
+	border: 1px solid #939FB8;
+	border-radius: 4px;
+	margin-top: 4px;
+}
+
+.dostava .kontakt .kupi {
+	display: block;
+	width: 394px;
+	height: 61px;
+	color: #FFF;
+	background-color: #FF9300;
+	border-radius: 8px;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Roboto';
+	border: 0;
+	margin-right: 24px;
+	margin-top: 56px;
+	margin-bottom: 32px;
+}
+
+
+.dostava .kontakt img {
+	text-align: center;
+	display: inline-block;
+	margin-left: 93px;
+}
+
+.dostava .kontakt span {
+	position: relative;
+    top: -4px;
+    left: -18px;
+	font-size: 16px;
+	color: #656565;
+}
+
+footer .pre-footer {
+	background-color: #EBEFF7;
+	display: inline-flex;
+	flex-grow: 1;
+	padding-top: 132px;
+	width: 1920px;
+}
+
+footer .pre-footer .kontakt-podrska {
+	margin-left: 142px;
+	margin-right: 280px;
+	margin-bottom: 128px;
+	width: 450px;
+}
+
+footer .pre-footer .kontakt-podrska h2 {
+	color: #656565;
+	font-size: 18px;
+	font-family: 'Roboto';
+	margin-bottom: 16px;
+}
+
+footer .pre-footer .kontakt-podrska span {
+	display: inline-block;
+	color: #656565;
+	font-size: 18px;
+	font-family: 'Roboto';
+	margin-bottom: 16px;
+}
+
+footer .pre-footer .kontakt-podrska #pozovite {
+	position: relative;
+    top: -23px;
+    left: 8px;
+}
+
+footer .pre-footer .kontakt-podrska #broj {
+	position: relative;
+    left: 50px;
+    top: -37px;
+}
+
+footer .pre-footer .o-nama {
+	margin-right: 128px;
+	width: 250px;
+}
+
+footer .pre-footer .o-nama h2 {
+	color: #656565;
+	font-size: 18px;
+	font-family: 'Roboto';
+	margin-bottom: 16px;
+}
+
+footer .pre-footer .o-nama span {
+	display: inline-block;
+	color: #656565;
+	font-size: 18px;
+	font-family: 'Roboto';
+	margin-bottom: 16px;
+}
+
+footer .pre-footer .pomoc {
+	margin-right: 165px;
+	width: 360px;
+}
+
+footer .pre-footer .pomoc h2 {
+	color: #656565;
+	font-size: 18px;
+	font-family: 'Roboto';
+	margin-bottom: 16px;
+}
+
+footer .pre-footer .pomoc span {
+	display: inline-block;
+	color: #656565;
+	font-size: 18px;
+	font-family: 'Roboto';
+	margin-bottom: 16px;
+}
+
+footer .pre-footer .soc-mreze {
+	width: 330px;
+	margin-right: 380px;
+}
+
+footer .pre-footer .soc-mreze h2 {
+	color: #656565;
+	font-size: 18px;
+	font-family: 'Roboto';
+	margin-bottom: 16px;
+}
+
+footer .pre-footer .soc-mreze #logo2 {
+	margin-top: 44px;
+	width: 120px;
+	height: 30px;
+}
+
+

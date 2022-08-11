@@ -1,0 +1,75 @@
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .opis-proizvoda {
+    padding:  269px 1140px 268px 0px;
+  }
+  main {
+    display: block;
+  }
+  .ihave {
+    width: 100%;
+    height: 100%;
+  }
+  .odabrano .wireles-headset {
+    margin-left: 130px;
+  }
+  .odabrano .cart{
+    margin-left: -30px;
+  }
+  .odabrano #facebook {
+    position: absolute;
+    top: 1300px;
+    left: 855px;
+  }
+  .odabrano #instagram {
+    position: absolute;
+    top: 1350px;
+    left: 855px;
+  }
+  .odabrano #in {
+    position: absolute;
+    top: 1400px;
+    left: 855px;
+  }
+  .iskoristi-momente {
+    padding: 249px 326px 504px 100px;
+    max-width: 100%;
+  }
+  .povezani-proizvodi {
+    max-width: 100%;
+    height: 1500px;
+  }
+  .povezani-proizvodi img {
+    display: block;
+  }
+  .povezani-proizvodi p {
+    margin-left: 150px;
+  }
+  .dostava {
+    max-width: 100%;
+  }
+  .dostava img {
+    margin-left: -100px;
+  }
+  .dostava .kontakt {
+    margin-left: -70px;
+  }
+  footer .pre-footer {
+    max-width: 100%;
+    display: inline-block;
+    height: 850px;
+  }
+  footer .pre-footer .o-nama {
+    position: relative;
+    left: 600px;
+    top: -380px;
+  }
+  footer .pre-footer .pomoc {
+    margin-left: 142px;
+    margin-bottom: 400px;
+  }
+  footer .pre-footer .soc-mreze {
+    position: relative;
+    left: 600px;
+    top: -550px;
+  }
+}
